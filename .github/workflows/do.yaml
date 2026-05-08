@@ -15,5 +15,8 @@ jobs:
           pwd
           ls -al
           echo "This is the first cicd step" >> a.txt
+
+      - name: simple-test-2
+        run: |
           ls -al
           cat a.txt
